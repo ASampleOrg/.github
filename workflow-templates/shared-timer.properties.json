@@ -1,0 +1,8 @@
+{
+    "name": "Shared Timer Workflow",
+    "description": "Shared Timer workflow",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+}
