@@ -1,0 +1,14 @@
+name: Shared Timer
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '45 9,10 * * *'
+
+jobs:
+  run-shared-timer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo data
+        run: |
+          ls ${{ github.workspace }}
+    
